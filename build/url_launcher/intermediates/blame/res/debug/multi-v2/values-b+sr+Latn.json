@@ -1,0 +1,34 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\ngotluan\\Desktop\\Flutter\\jan-20200831T021411Z-001\\jan\\jan_app_flutter\\build\\url_launcher\\intermediates\\res\\merged\\debug\\values-b+sr+Latn\\values-b+sr+Latn.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\ngotluan\\.gradle\\caches\\transforms-2\\files-2.1\\4f17a7f828c4f09cc1b9a0267b2a2157\\core-1.1.0\\res\\values-b+sr+Latn\\values-b+sr+Latn.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\ngotluan\\Desktop\\Flutter\\jan-20200831T021411Z-001\\jan\\jan_app_flutter\\build\\url_launcher\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-b+sr+Latn\\values-b+sr+Latn.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\ngotluan\\.gradle\\caches\\transforms-2\\files-2.1\\4f17a7f828c4f09cc1b9a0267b2a2157\\core-1.1.0\\res\\values-b+sr+Latn\\values-b+sr+Latn.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        }
+    ]
+}

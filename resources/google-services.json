@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "102216432934",
+    "firebase_url": "https://jan-dating-app.firebaseio.com",
+    "project_id": "jan-dating-app",
+    "storage_bucket": "jan-dating-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:102216432934:android:1859fbbbe39117de6fd5e7",
+        "android_client_info": {
+          "package_name": "com.jan.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "102216432934-tpkd0va36p30cej07srqn4ohoiahjndo.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.jan.app",
+            "certificate_hash": "dd601866e395167969a989b0577fb6dae9b359d7"
+          }
+        },
+        {
+          "client_id": "102216432934-59bsj39bgo78mmrs8d2vl6jebsnlkjkk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAwkXBzdkw4wojGiJ8jq0dD4lI-XfSsIjk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "104149473045492417860",
+              "client_type": 3
+            },
+            {
+              "client_id": "102216432934-3js5d2ls9ju0k59cbiirb361grp3qrtn.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.jan.app"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

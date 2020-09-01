@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">773168284102-jpv8f1v6aqqt1q4e73n1bp01k2thk65j.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://sigma-32aa8.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">773168284102</string>
+    <string name="google_api_key" translatable="false">AIzaSyAB_zy9R4fRI4APxPUEJtRQ3iWEher7spY</string>
+    <string name="google_app_id" translatable="false">1:773168284102:android:e7e11344b654928090f2c7</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyAB_zy9R4fRI4APxPUEJtRQ3iWEher7spY</string>
+    <string name="google_storage_bucket" translatable="false">sigma-32aa8.appspot.com</string>
+    <string name="project_id" translatable="false">sigma-32aa8</string>
+</resources>

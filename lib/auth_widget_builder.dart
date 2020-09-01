@@ -1,0 +1,53 @@
+import 'package:flutter/material.dart';
+import 'package:jan_app_flutter/providers/auth_provider.dart';
+import 'package:jan_app_flutter/services/firestore_database.dart';
+import 'package:provider/provider.dart';
+
+import 'models/user_model.dart';
+
+/*
+* This class is mainly to help with creating user dependent object that
+* need to be available by all downstream widgets.
+* Thus, this widget builder is a must to live above [MaterialApp].
+* As we rely on uid to decide which main screen to display (eg: Home or Sign In),
+* this class will helps to create all providers needed that depends on
+* the user logged data uid.
+ */
+class AuthWidgetBuilder extends StatelessWidget {
+  const AuthWidgetBuilder(
+      {Key key, @required this.builder, @required this.databaseBuilder})
+      : super(key: key);
+  final Widget Function(
+      BuildContext, AsyncSnapshot<AuthUser>, FirestoreDatabase) builder;
+  final FirestoreDatabase Function(BuildContext context, String uid)
+      databaseBuilder;
+
+  @override
+  Widget build(BuildContext context) {
+    final authService = Provider.of<AuthProvider>(context, listen: false);
+    final FirestoreDatabase firestoreDatabase = databaseBuilder(context, null);
+    return StreamBuilder<AuthUser>(
+      stream: authService.user,
+      builder: (BuildContext context, AsyncSnapshot<AuthUser> snapshot) {
+        final AuthUser user = snapshot.data;
+        if (user != null) {
+          /*
+          * For any other Provider services that rely on user data can be
+          * added to the following MultiProvider list.
+          * Once a user has been detected, a re-build will be initiated.
+           */
+          return MultiProvider(
+            providers: [
+              Provider<AuthUser>.value(value: user),
+              Provider<FirestoreDatabase>(
+                create: (context) => firestoreDatabase,
+              ),
+            ],
+            child: builder(context, snapshot, firestoreDatabase),
+          );
+        }
+        return builder(context, snapshot, firestoreDatabase);
+      },
+    );
+  }
+}

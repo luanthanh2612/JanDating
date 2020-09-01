@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>102216432934-3js5d2ls9ju0k59cbiirb361grp3qrtn.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.102216432934-3js5d2ls9ju0k59cbiirb361grp3qrtn</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>102216432934-r6e8oenm91gakhca9tgl57bd567qjc26.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDettRgYzk6l0BrnYYIkNv7mGwnOIlvWKs</string>
+	<key>GCM_SENDER_ID</key>
+	<string>102216432934</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.jan.app</string>
+	<key>PROJECT_ID</key>
+	<string>jan-dating-app</string>
+	<key>STORAGE_BUCKET</key>
+	<string>jan-dating-app.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:102216432934:ios:498bb5e1e160ff456fd5e7</string>
+	<key>DATABASE_URL</key>
+	<string>https://jan-dating-app.firebaseio.com</string>
+</dict>
+</plist>

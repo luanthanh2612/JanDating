@@ -1,0 +1,6 @@
+framework module flutter_device_locale {
+  umbrella header "flutter_device_locale-umbrella.h"
+
+  export *
+  module * { export * }
+}

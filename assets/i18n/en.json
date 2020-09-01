@@ -1,0 +1,335 @@
+{
+    "tutorial-screen": {
+        "like": "Нравится",
+        "not-now": "Не сейчас",
+        "next": "Дальше"
+    },
+    "geolocation-screen": {
+        "title": "Включите доступ к геоданным",
+        "turn-on": "Включить геолокацию",
+        "description": {
+            "part1": "Чтобы использовать",
+            "part2": "необходимо включить геолокацию"
+        }
+    },
+    "no-internet-screen": {
+        "title": "Доступ к интернету отсутствует",
+        "turn-on": "Подключиться"
+    },
+    "login-page": {
+        "sign-up": "Зарегистрироваться",
+        "sign-in": "Войти"
+    },
+    "distance": {
+        "km": "км"
+    },
+    "enter-phone-number-page": {
+        "enter-phone-number-text": "Введите номер телефона:",
+        "continue-button": "Продолжить",
+        "user-agreement": "Пользовательское соглашение"
+    },
+    "select-country-modal": {
+        "searchbar-placeholder": "Поиск"
+    },
+    "enter-verification-code-page": {
+        "enter-verification-code-text": "Введите код подтверждения:",
+        "code-was-sent-text": "Код был выслан по вашему номеру телефона",
+        "resend-code": "Выслать повторно",
+        "sms-was-sent": "Сообщение с кодом отправлено",
+        "resend-code-retry-in": "Попробуйте снова через:"
+    },
+    "select-gender-page": {
+        "your-gender-text": "Ваш пол:",
+        "female": "Женщина",
+        "male": "Мужчина"
+    },
+    "enter-first-name-page": {
+        "enter-your-first-name": "Укажите ваше имя:",
+        "first-name-input-placeholder": "Имя",
+        "anonymity-message": "Имя будет отображаться только в чате при взаимной симпатии"
+    },
+    "enter-birthday-page": {
+        "enter-birthday": "Укажите дату рождения:",
+        "birthday-will-be-published-message": "Возраст будет будет опубликован в вашем профиле",
+        "birthday-input-placeholder": "дд.мм.гггг"
+    },
+    "select-languages-you-know-page": {
+        "what-languages-do-you-know": "Какие языки вы знаете?",
+        "cant-remove-last-language": "Вы должны указать хотя бы один язык",
+        "limit-message": "Для выбора доступно не более 5 языков"
+    },
+    "enter-height-page": {
+        "enter-height-text": "Укажите ваш рост:",
+        "cm": "см",
+        "height-input-placeholder": "см (дюйм)"
+    },
+    "add-photo-page": {
+        "add-photo-text": "Добавьте фото:",
+        "add-photo-description": "Перетаскивайте фото для измнения порядка",
+        "photo-requirements": "Требования к фотографиям",
+        "action-sheet": {
+            "title": "Выберите откуда хотите загрузить фото",
+            "gallery-button": "Галерея",
+            "take-photo-button": "Сделать снимок"
+        }
+    },
+    "photo-requirements-modal": {
+        "photo-requirements-title": "Требования к фотографиям:",
+        "rule-1": "1. На фотографии должны быть изображены именно вы - нельзя загружать чужие фото и фото людей из интернета",
+        "rule-2": "2. На фотографии должно быть не более одного человека - запрещены фото со спины, в профиль, с элементами гардероба, закрывающих лицо (очки, маски и т.д.)",
+        "rule-3": "3. Фотографии должны соответствовать этическим и моральным нормам - запрещены фото эротического содержания, с элементами насилия, с оружием и т.д.",
+        "rule-4": "4. Не допускаются отредактированные и графически оформленные фотографии: рамки и иные элементы компьютерной графики",
+        "rule-5": "5. Фотографии должны быть объективно хорошего качества",
+        "rule-6": "6. Модераторы оставляют за собой право отклюнять фотографии, неуместные по мнению администраторов сервиса"
+    },
+    "photo-deletion-warning-modal": {
+        "message": "Нельзя удалить единственное фото"
+    },
+    "side-menu": {
+        "my-profile": "Мой профиль",
+        "search-filter": "Поисковый фильтр",
+        "notifications": "Уведомления",
+        "store": "Магазин",
+        "settings": "Настройки",
+        "application-language": "Язык приложения",
+        "about-application": "О приложении"
+    },
+    "shop-modal": {
+        "title": "Подпишитесь на VIP-профиль",
+        "slides": {
+            "labels": {
+                "infinity-profiles": "ПРОСМАТРИВАЙТЕ ПРОФИЛИ БЕСКОНЕЧНО",
+                "previous-profile": "ВЕРНИТЕ ПРЕДЫДУЩИЙ ПРОФИЛЬ",
+                "who-did-you-like": "СМОТРИТЕ КОМУ ВЫ ПОНРАВИЛИСЬ"
+            }
+        },
+        "plans": {
+            "seven-days": "7 дней",
+            "one-month": "1 мес",
+            "three-month": "3 мес",
+            "economy-label": "/ 7 дней",
+            "discount": "скидка"
+        },
+        "buttons": {
+            "not-now": "Не сейчас",
+            "buy": "Купить"
+        }
+    },
+    "timer": {
+        "title": "Просмотр профилей возобновится через:",
+        "button": "Активировать VIP"
+    },
+    "my-profile": {
+        "title": "Мой профиль",
+        "profile-data": {
+            "labels": {
+                "location": "Локация",
+                "birthday": "Дата рождения",
+                "known-languages": "Владение языками"
+            }
+        },
+        "profile-settings": {
+            "height": "Рост",
+            "weight": "Вес",
+            "education": "Образование",
+            "occupation": "Занятость",
+            "smoking": "Курение",
+            "alcohol": "Алкоголь",
+            "sport": "Занятия спортом",
+            "maritalStatus": "Семейный статус",
+            "kids": "Дети",
+            "zodiacSign": "Знак зодиака"
+        },
+        "profile-actions": {
+            "hide-profile": {
+                "label": "Скрыть профиль",
+                "message": "<strong>Скрытие</strong> профиля делает Вас невидимым для других пользователей. Но, вы можете вернуться в любой момент.",
+                "okay": "Скрыть"
+            },
+            "delete-profile": {
+                "label": "Удалить",
+                "message1": "Вы действительно хотите ",
+                "message2": "удалить",
+                "message3": " Вашу анкету?",
+                "okay": "Удалить",
+                "info": "Будет удалена вся ваша личная информация и фотографии"
+            },
+            "logout": {
+                "label": "Выйти",
+                "message1": "Вы действительно хотите ",
+                "message2": "выйти",
+                "message3": " из профиля?",
+                "okay": "Выйти"
+            }
+        },
+        "profile-about": {
+            "title": "Расскажите немного о себе",
+            "placeholder": "Введите текст"
+        },
+        "cm": "см",
+        "kg": "кг",
+        "not-specified": "Не указано"
+    },
+    "questionnaire-modal": {
+        "titles": {
+            "height": "Какой у вас рост?",
+            "weight": "Какой у вас вес?",
+            "education": "Какое у вас образование?",
+            "occupation": "Какова ваша занятость?",
+            "smoking": "Вы курите сигареты",
+            "alcohol": "Употребляете алкоголь?",
+            "sport": "Вы занимаетесь спортом?",
+            "marital-status": "Ваш семейный статус",
+            "kids": "У вас есть дети?",
+            "zodiac-sign": "Ваш знак зодиака?"
+        },
+        "placeholders": {
+            "weight": "кг (фунт)"
+        },
+        "cm": "см",
+        "kg": "кг",
+        "lb": "lb"
+    },
+    "profile": {
+        "education": {
+            "middle": "Закончил(а) школу",
+            "college": "Закончил(а) колледж",
+            "study-in-university": "Учусь в университете",
+            "higher": "Высшее"
+        },
+        "occupation": {
+            "studying": "Учусь",
+            "working": "Работаю",
+            "not-working": "Не работаю"
+        },
+        "smoking": {
+            "smoke": "Курю",
+            "do-not-smoke": "Не курю",
+            "smoke-not-often": "Курю редко"
+        },
+        "alcohol": {
+            "drink": "Употребляю",
+            "do-not-drink": "Не употребляю совсем",
+            "drink-only-at-holidays": "Только по праздникам"
+        },
+        "sport": {
+            "do-sport": "Занимаюсь",
+            "do-sport-sometimes": "Иногда",
+            "do-not-do-sport": "Не занимаюсь"
+        },
+        "marital-status": {
+            "was-married": "Был(а) в браке",
+            "was-not-married": "Не был(а) в браке"
+        },
+        "kids": {
+            "no-kids": "Детей нет",
+            "no-kids-want-some": "Детей нет, но очень хочу",
+            "have-kids-want-no-more": "Дети есть"
+        },
+        "zodiac-signs": {
+            "aries": "Овен",
+            "taurus": "Телец",
+            "gemini": "Близнецы",
+            "cancer": "Рак",
+            "leo": "Лев",
+            "virgo": "Дева",
+            "libra": "Весы",
+            "scorpio": "Скорпион",
+            "sagittarius": "Стрелец",
+            "capricorn": "Козерог",
+            "aquarius": "Водолей",
+            "pisces": "Рыбы"
+        }
+    },
+    "search-filter": {
+        "title": "Фильтр",
+        "language-knowing-text": "Знание языка:",
+        "filters": {
+            "distance": {
+                "label": "Радиус поиска:",
+                "value-label": "км"
+            },
+            "age": {
+                "label": "Возраст:",
+                "value-label": "лет"
+            },
+            "height": {
+                "label": "Рост:",
+                "value-label": "см"
+            },
+            "language": {
+                "not-selected": "Не выбрано"
+            }
+        },
+        "languages-filter": {
+            "title": "Выберите один язык:",
+            "ready-button": "Готово"
+        }
+    },
+    "error-message": {
+        "wrong-sms-code": "Пожалуйста, убедитесь в правильности введённого кода",
+        "sms-code-expired": "Код смс истек. Пожалуйста, повторно отправьте проверочный код, чтобы повторить попытку.",
+        "wrong-confirmation-code": "Неверно указан код",
+        "something-went-wrong": "Что-то пошло не так. Попробуйте снова",
+        "permission-denied": "Отказано в доступе",
+        "camera-permission-denied": "Вы не дали доступ к камере",
+        "gallery-permission-denied": "Вы не дали доступ к галерее",
+        "invalid-phone-number": "Вы ввели неверный или несуществующий номер телефона",
+        "sms-code-expired-error": "Введенный код недействителен. Для получения нового кода подтверждения нажмите на кнопку выше.",
+        "too-many-requests-error": "Вы превысили возможное количестве запросов на вход. Пожалуйста, попробуйте позже.",
+        "invalid-phone-number-format": "Неверный формат номера телефона.",
+        "cant-get-geolocation": "Не удалось считать Вашу геолокацию."
+    },
+    "buttons": {
+        "cancel": "Отменить",
+        "done": "Готово",
+        "okay": "Понятно"
+    },
+    "loading-service": {
+        "loading-message": "Загрузка. Пожалуйста, подождите"
+    },
+    "languages": {
+        "hy": "Армянский",
+        "ru": "Русский",
+        "en": "Английский",
+        "ua": "Украинский",
+        "ka": "Грузинский",
+        "de": "Немецкий",
+        "fr": "Французский",
+        "es": "Испанский",
+        "pt": "Португальский",
+        "fa": "Персидский"
+    },
+    "currencies": {
+        "rub": "руб"
+    },
+    "datetime-picker-month-names": {
+        "january": "Января",
+        "february": "Февраля",
+        "march": "Марта",
+        "april": "Апреля",
+        "may": "Мая",
+        "june": "Июня",
+        "july": "Июля",
+        "august": "Августа",
+        "september": "Сентября",
+        "october": "Октября",
+        "november": "Ноября",
+        "december": "Декабря"
+    },
+    "settings": {
+        "title": "Настройки ENG",
+        "notifications": {
+            "label": "Уведомления:",
+            "sympathies": "Симпатии",
+            "messages": "Сообщения"
+        },
+        "app-language" :{
+            "label": "Язык приложения:"
+        },
+        "tech-support": {
+            "label": "Техподдержка:",
+            "sub-label": "Вопросы и предложения можете отправлять на наш e-mail:"
+        }
+    }
+}
